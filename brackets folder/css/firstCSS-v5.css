@@ -1,0 +1,95 @@
+h1{
+    color: #666666;
+    /*background: #00B7EA;*/
+    font-size: 160%;
+}
+header{
+    background: #00B7EA;
+    text-align: center;
+    padding: 2px;
+}
+nav{
+    font-variant: small-caps;
+    font-size: 100%;
+    font-family: monospace, "Times New Roman",serif;
+}
+h2{
+    border-radius: 5px;
+    padding: 5px;
+    color: #666666;
+    font-size: 130%;
+    background: #00B7EA;
+} 
+details{
+    font-variant: normal;
+    font-weight: normal;
+    font-style: italic;
+}
+summary{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: normal;
+}
+footer{
+    background: #00B7EA;
+    clear: both;
+    padding: 2px;
+}
+body{
+    /*background: #B3B3B3;*/
+    background: linear-gradient(270deg, #5A51CD 0%, #A63094 50%, #EB773D 100%);
+    font-size: 135%;
+    margin: 4%;
+    /*background-color: chocolate;*/
+}
+p{
+    font-size: 100%;
+    text-align: center;
+}
+img{
+    width: 125px;
+    padding-right: 10px;
+}
+header, footer{
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(61,61,215,1) 0%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(61,61,215,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(61,61,215,1) 0%, rgba(0,212,255,1) 100%);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+nav a{
+    width: 22%;
+    display: inline-block;
+    /*background: #FFFFFF;*/
+}
+.half{
+    width: 48%;
+    margin-right: 2%;
+    display: inline-block;
+    float: left;
+}
+.whole{
+    clear: both;
+}
+div a{
+       margin: 40px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    color: #F2F2F2;
+    /*box-sizing: content-box;*/
+    border: 1px solid #F4F4F4;
+    border-width: medium;
+    border-radius: 10px;
+}
+.active{
+    background: #F2F2F2;
+    color: #673AB7;
+    pointer-events: none;
+}
+a:hover{
+    background: #4CAF50;
+    color: #F2F2F2;
+}

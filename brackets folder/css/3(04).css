@@ -1,0 +1,39 @@
+div{
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    widows: 100px;
+    height: 100px;
+    margin: 2%;
+    padding: 2%;
+    display: inline-block;
+    transition: 2% ease;
+}
+div:focus{
+    background: #FFFF00;
+}
+div:hover{
+    width: 200px;
+    background: #800040;
+}
+.animate{
+    background: #92B901;
+    -webkit-transition:-webkit-transition 1s, opacity;
+    -webkit-border-radius; 5px;
+    -o-transition-property: width, height, -o-transition;
+    -o-transition-duration:1s, 1s, 1s, 1s, 1s, 1s;
+    -moz-transition-property: width, height, -o-transition;
+    -moz-transition-duration:1s, 1s, 1s, 1s, 1s, 1s;
+    transition-property: width, height, transform;
+    transition-duration:1s, 1s, 1s, 1s, 1s, 1s;
+    opacity: 0.4;
+}
+.animate:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    opacity: 1;
+    background: #1EC7E6;
+    width: 110px;
+    height: 67px;
+}

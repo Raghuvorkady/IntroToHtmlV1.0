@@ -1,0 +1,111 @@
+body{
+    margin: 10px;
+    padding: 5px;
+}
+h1{
+    font-size: 250%;
+    color: #FFFFFF;
+}
+header{
+    text-align: center;
+    background-color: #CE93D8;
+    background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2017/08/nature-design.jpg");
+    background-size: 100% 100%;
+    
+}
+nav{
+    text-align: center;
+    font-size: 100%;
+}
+nav a{
+    margin: 40px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px;
+    color: #F2F2F2;
+    /*box-sizing: content-box;*/
+    border: 1px solid #F4F4F4;
+    border-width: medium;
+    border-radius: 10px;
+}
+a:hover{
+    background: #F2F2F2;
+    color: #673AB7;
+}
+.left{
+    background: #3F51B5;
+    width: 20%;
+    height: 100vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    float: left;
+    display: inline-block;
+}
+img{
+    width: 200px;
+    height: 150px;
+    border: 2px solid #F4F4F4;
+    border-radius: 15px;
+    display: block;
+    margin:0 auto;
+    margin-bottom: 5px;
+}
+.right{
+    margin: 10px;
+    width: 55%;
+    clear: both;
+    display: inline-block;
+}
+.active{
+    background: #F2F2F2;
+    color: #673AB7;
+}
+table{
+    font-size: 150%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #607D8B;
+    font-family: monospace;
+    line-height: 35px;
+}
+th{
+    padding: 10px;
+    background-color: #3F51B5;
+    font-weight: bold;
+    color: #F2F2F2;
+    font-family: sans-serif;
+    border-width: thick;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-width: thick;
+}
+td{
+    padding: 5px;
+    border-color: #FFFFFF;
+    /*background-color: #9FA8DA;*/
+    font-family: cursive;
+    color: #424242;
+    font-family: serif;
+    border-radius: 2px;
+}
+td:first-child{
+    text-align: left;
+}
+td:nth-child(2){
+    text-align: center;
+}
+td:nth-child(3){
+    text-align: center;
+}
+tr{
+    opacity: 0.8;
+}
+tr:hover{
+    opacity: 1;
+    color: #F2F2F2;
+    background-color: #C5CAE9;
+}
